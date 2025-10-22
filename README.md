@@ -18,8 +18,4 @@ Para rodar o SQL Server localmente com Docker:
 ```bash
 docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=SqlServer2024!" ^
 -p 1433:1433 --name sqlserver2022 -d ^
-mcr.microsoft.com/mssql/server:2022-latest
-
-Verifique se o container está ativo:
-```bash
-docker ps
+mcr.microsoft.com/mssql/server:2022-latest ```
