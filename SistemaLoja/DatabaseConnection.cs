@@ -6,9 +6,9 @@ public class DatabaseConnection
 {
     private static readonly string connectionString =
         "Server=localhost,1433;" +
-        "Database=SistemaLoja;" +
+        "Database=SistemaLojaDB;" +
         "User Id=sa;" +
-        "Password=YourStrong!Passw0rd;" +
+        "Password=SqlServer2024!;" +
         "TrustServerCertificate=True;";
 
     public static SqlConnection GetConnection()
